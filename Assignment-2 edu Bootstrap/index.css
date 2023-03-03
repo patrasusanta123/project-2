@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: white;
+}
+.login-signup {
+    position: absolute;
+    right: 80px;
+    top: 25px;
+    font-weight: normal;
+}
+.login {
+    color: #eef3f7;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+.login1{
+    color: #eef3f7;
+    text-decoration: none;
+    position: absolute;
+    right: 165px;
+    
+
+}
+.login:hover{
+    background-color: #8C96AB;
+}
+
+ /* .login:hover, .newaccount:hover{ 
+    color: rgb(229, 10, 10); 
+}
+.newaccount{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 15px;
+
+} */
+.logo{
+    text-align: center;
+  background: white;
+  width: 97px;
+  height: 102px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  margin-left: 43%;
+}
+#logo-e{
+    color: red;
+    position: absolute;
+    font-size: 79px;
+    top: -76%;
+    left: 25%;
+}
+.resturant-title{
+    position: absolute;
+    top: 26%;
+    left: 19%;
+    color: white;
+    font-size: 49px;  
+    font-family: 'Poppins', sans-serif ;  
+      
+}
+.dropdown{
+    position: absolute;
+    left: 426px;
+}
+/* .searchbar{
+    position: absolute;
+    left: 652px;
+}
+.restaurantsinput{
+    padding: 11px 84px;
+}
+.locationDropdown{
+    padding: 15px 10px;
+} */
+.locationSelector {
+    position: absolute;
+    top: 40%;
+    margin-left: 38%;
+    text-align: center;
+  }
+  .locationDropdown {
+    height: 52px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-left: -285px;
+    margin-bottom: 25px;
+    float: left;
+  }
+  .restaurantsinput {
+    height: 52px;
+    width: 440px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+    padding-left: 30px;
+  }
+
+.quick{
+    font: normal normal bold 35px/46px Poppins;
+    color: #192F60;
+}
+.meal{
+    font: normal normal normal 18px/27px Poppins;
+    color: #8C96AB;
+    
+}
+.result1{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    top: 580px;
+    left: 114px;
+    margin-top: 35px;
+}
+.result2{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    top: 766px;
+    left: 114px;
+    margin-top: 35px;
+}
+.result3{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    top: 580px;
+    left: 502px;
+    margin-top: 35px;
+}
+.result4{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    top: 580px;
+    left: 890px;
+    margin-top: 35px;
+}
+.result5{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    top: 766px;
+    left: 502px;
+    margin-top: 35px;
+}
+.result6{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    top: 766px;
+    left: 890px;
+    margin-top: 35px;
+}
+.img1{
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    position: absolute;
+}
+.img2{
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    position: absolute;   
+}
+.img3{
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    position: absolute;
+}
+.img4{
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    position: absolute;
+}
+.img5{
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    position: absolute;
+}
+.img6{
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    position: absolute;
+}
+.breakfast{
+    left: 190px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 21px/24px Poppins;
+    color: #192F60;
+}
+.dinner{
+    left: 190px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 21px/24px Poppins;
+    color: #192F60;
+}
+.lunch{
+    left: 190px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 21px/24px Poppins;
+    color: #192F60;
+}
+.drinks{
+    left: 190px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 21px/24px Poppins;
+    color: #192F60;
+}
+.snacks{
+    left: 190px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 21px/24px Poppins;
+    color: #192F60;
+}
+.nightlife{
+    left: 190px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 21px/24px Poppins;
+    color: #192F60;
+}
+.list1{
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: 15px;
+
+}
+.list2{
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: 15px;
+
+}
+.list3{
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: 15px;
+
+}
+.list4{
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: 15px;
+
+}
+.list5{
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: 15px;
+
+}
+.list6{
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: 15px;
+}
+@media only screen and (max-width: 600px){
+    .login-signup-row{
+        left: 196px;
+        top: 14px;
+    }
+
+}
+
+    
